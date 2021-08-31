@@ -14,7 +14,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_mondayUi(object):
     def setupUi(self, mondayUi):
         mondayUi.setObjectName("mondayUi")
-        mondayUi.resize(1440, 900)
+        mondayUi.resize(1920, 1080)
         self.centralwidget = QtWidgets.QWidget(mondayUi)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(self.centralwidget)
