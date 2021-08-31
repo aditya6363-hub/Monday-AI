@@ -21,7 +21,7 @@ from PyQt5.uic import loadUiType
 from mondayUI import Ui_mondayUi
 
 
-engine = pyttsx3.init('sapi5')
+engine = pyttsx3.init('nsss')
 voices = engine.getProperty('voices')
 #print(voices[0].id)
 engine.setProperty('voices', voices[0].id)
